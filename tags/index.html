@@ -339,6 +339,19 @@
     
     
     
+      <div class="footer-dsc">
+        
+        本站总访问量<span id="busuanzi_value_site_pv"></span>次
+        
+        
+        <span>&nbsp;|&nbsp;</span>
+        
+        
+        本站总访客数<span id="busuanzi_value_site_uv"></span>次
+        
+      </div>
+      
+    
 </footer> <a role="button" id="scrollbutton" class="basebutton"  aria-label="回到顶部">
   <i class="iconfont icon-arrowleft button-icon"></i>
 </a>
@@ -353,7 +366,11 @@
 </a>
 <a role="button" id="searchbutton" class="basebutton searchwidget" aria-label="搜索">
   <i class="iconfont icon-search button-icon"></i>
-</a>     <script src="/js/main.js"></script>  
+</a>     <script src="/js/main.js"></script> 
+    <script>
+      loadScript('/js/lib/busuanzi.min.js')
+    </script>
+     
     <script>
       var addLazyload = function () {
         var observer = lozad('.lozad', {
